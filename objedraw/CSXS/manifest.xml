@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 1 -->
-<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="com.github.stama72.objedraw" ExtensionBundleVersion="1.0.0" Version="9.0">
-   <!-- 2 -->
+
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="com.github.stama72.objedraw" ExtensionBundleVersion="1.0.0" Version="11.0">
    <ExtensionList>
       <Extension Id="com.github.stama72.objedraw.test" Version="0.0.1" />
    </ExtensionList>
    <ExecutionEnvironment>
-      <!-- 3 -->
       <HostList>
          <Host Name="PHSP" Version="23.0" />
          <Host Name="PHXS" Version="23.0" />
@@ -15,7 +13,6 @@
          <Locale Code="All" />
       </LocaleList>
       <RequiredRuntimeList>
-         <!-- 4 -->
          <RequiredRuntime Name="CSXS" Version="11.0" />
       </RequiredRuntimeList>
    </ExecutionEnvironment>
@@ -23,16 +20,13 @@
       <Extension Id="com.github.stama72.objedraw.test">
          <DispatchInfo>
             <Resources>
-               <!-- 5 -->
                <MainPath>./index.html</MainPath>
+               <ScriptPath>./index.jsx</ScriptPath>
             </Resources>
             <UI>
-               <!-- 6 -->
                <Type>Panel</Type>
-               <!-- 7 -->
                <Menu>Objedraw Test</Menu>
                <Geometry>
-                  <!-- 8 -->
                   <Size>
                      <Height>500</Height>
                      <Width>350</Width>
