@@ -20,8 +20,8 @@
       <Extension Id="com.github.stama72.objedraw.test">
          <DispatchInfo>
             <Resources>
-               <MainPath>./index.html</MainPath>
-               <ScriptPath>./index.jsx</ScriptPath>
+               <MainPath>./client/index.html</MainPath>
+               <ScriptPath>./host/index.jsx</ScriptPath>
             </Resources>
             <UI>
                <Type>Panel</Type>
